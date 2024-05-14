@@ -24,7 +24,8 @@ const MarkdownApp = () => {
         onChange={(e) => setMarkdown(e.target.value)}
         placeholder="Write your markdown here..."
       />
-      <div className="preview">{html}</div>
+      <div className="preview"><h1>Heading</h1>
+{html}</div>
    
     </div>
   );
